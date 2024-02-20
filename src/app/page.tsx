@@ -1,9 +1,12 @@
 import Image from "next/image";
+import Hero from "../components/Hero";
+import FeaturedPosts from "../components/FeaturedPosts";
 
-export default function Home() {
+export default function HomePage() {
   return (
-    <main className="bg-gray-500">
-      Main
-    </main>
+    <section>
+      <Hero />
+      <FeaturedPosts />
+    </section>
   );
 }
